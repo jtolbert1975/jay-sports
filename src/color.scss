@@ -1,0 +1,10 @@
+@import '~@angular/material/theming';
+
+@mixin jay-sports-colors($theme){
+    $primary: map-get($map: $theme, $key: primary);
+    $accent: map-get($map: $theme, $key: accent );
+    $warn: map-get($map: $theme, $key: warn );
+    $foreground: map-get($map: $theme, $key: foreground);
+    $background: map-get($map: $theme, $key: background);
+    $headerFab: #FF6F00;
+}
